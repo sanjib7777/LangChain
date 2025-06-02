@@ -1,0 +1,16 @@
+{
+    "title": "Example JSON Schema",
+    "description": "This schema defines a simple JSON object with a name and age.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the person."
+        },
+        "age": {
+            "type": "integer",
+            "description": "The age of the person."
+        }
+    },
+    "required": ["name", "age"],
+}
